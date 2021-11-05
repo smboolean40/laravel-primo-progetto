@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Contatti</title>
-	</head>
-	<body>
-		<h1>Contatti</h1>
-		<ul>
-			<li><a href="/">Home Page</a></li>
-			<li><a href="/chi-siamo">Chi Siamo</a></li>
-			<li><a href="/contatti">Contatti</a></li>
-		</ul>
-	</body>
-</html>
+@extends('layout.base')
+
+@section('pageTitle', 'I nostri contatti')
+
+@section('pageContent')
+
+<form action="">
+	<input type="text" placeholder="Nome">
+	<input type="text" placeholder="Cognome">
+</form>
+
+@endsection
